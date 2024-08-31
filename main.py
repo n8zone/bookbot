@@ -4,6 +4,10 @@ def sort_on(dict):
 def dict_to_dictlist(dict):
 	dict_list = []
 	for key in dict:
+
+		if not key.isalpha():
+			continue
+
 		char = key
 		count = dict[key]
 
