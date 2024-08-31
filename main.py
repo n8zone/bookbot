@@ -47,7 +47,7 @@ def main():
 		print(f"> {word_count} words found in the document\n")
 		
 		for char in characters:
-			print(f"The '{char["char"]} character was found {char["count"]} times")
+			print(f"The '{char["char"]}' character was found {char["count"]} times")
 			pass
 
 		print("--- End Report ---")
