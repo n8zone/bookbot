@@ -19,7 +19,6 @@ def dict_to_dictlist(dict):
 
 def count_characters(text):
 	text = text.lower()
-	text_array = text.split()
 	char_count_dict = {}
 	for c in text:
 		print(f"c: {c}")
